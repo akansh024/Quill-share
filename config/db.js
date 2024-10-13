@@ -4,8 +4,9 @@ const { Pool } = require('pg');
 const pool = new Pool({
     user: 'postgres',
     host: 'database-1.cpikm84q2imr.us-east-1.rds.amazonaws.com',
-    database: 'quillshare',
-    password: 'b8nb3IVTpfBqEL0oyLB4 ',
+    database:'postgres', // 'quillshare',
+    password: 'b8nb3IVTpfBqEL0oyLB4',
+//	password: 'Quillshare' 
     port: 5432,
 });
 
