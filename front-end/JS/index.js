@@ -4,14 +4,14 @@ function toggleMenu() {
 
     if (dropdown.style.display === "block") {
         dropdown.style.display = "none";
-        profileIcon.src = "/Assets/svg s/Profile.svg";
+        profileIcon.src = "../Assets/svg s/Profile.svg";
         profileIcon.style.width = "40px";  
         profileIcon.style.height = "40px"; 
     } else {
         dropdown.style.display = "block";
-        profileIcon.src = "/Assets/svg s/ActiveProfile.svg";
-        profileIcon.style.width = "50px";  
-        profileIcon.style.height = "50px"; 
+        profileIcon.src = "../Assets/svg s/Active_p.svg";
+        profileIcon.style.width = "40px";
+        profileIcon.style.height = "40px"; 
     }
 }
 window.onclick = function(event) {
@@ -21,7 +21,7 @@ window.onclick = function(event) {
     if (!event.target.matches('.profile-icon') && !dropdown.contains(event.target)) {
         if (dropdown.style.display === "block") {
             dropdown.style.display = "none";
-            profileIcon.src = "/Assets/svg s/Profile.svg";
+            profileIcon.src = "../Assets/svg s/Profile.svg";
             profileIcon.style.width = "40px";  
             profileIcon.style.height = "40px"; 
         }
