@@ -82,5 +82,3 @@ document.addEventListener('DOMContentLoaded', () => {
     overlay.style.display = 'none';
 });
 
-
-

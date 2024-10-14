@@ -494,8 +494,33 @@ nav {
     font-size: 18px;
 }
 
-.main table{
-    margin: 10px;
-    padding: 10px;
-    width: 100%;
+.main table {
+  margin: 10px;
+  padding: 10px;
+  width: 98%;
+  border-collapse: separate; 
+  border-spacing: 0 5px; 
 }
+
+.main table .none {
+  text-align: left;
+}
+
+.main table tr {
+  text-align: center;
+  background-color: #FFA133; 
+  color: #f2f2f2;
+}
+
+.main table th {
+  background-color: #FF8900;
+}
+.main table tr a{
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+.main table tr a:hover{
+  color: #002c41;
+}
+
