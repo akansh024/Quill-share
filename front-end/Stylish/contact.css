@@ -15,11 +15,11 @@
 
 body {
     background-image: url(../Assets/img/Contactbg.jpg);
-    background-size: 100%;
+    background-size: cover;
 }
 
 nav {
-    background-color: #1b1a1f67;
+    background-color: var(--header-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
